@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡單的 HTML 和 JavaScript 範例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>歡迎來到我的網站！</h1>
+    <p>點擊下面的按鈕來顯示一個訊息：</p>
+    <button id="alertButton">顯示訊息</button>
+
+    <script>
+        // 這是 JavaScript 代碼
+        document.getElementById('alertButton').addEventListener('click', function() {
+            alert('你好！這是一個簡單的訊息。');
+        });
+    </script>
+</body>
+</html>
